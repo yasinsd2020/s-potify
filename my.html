@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(17, 16, 16);
+        }
+
+        .about {
+            color: #f0ffff;
+            background-color: rgb(17, 16, 16);
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .brand img {
+            margin-left: 2rem;
+        }
+
+        .mypic img {
+            position: relative;
+            left: 40%;
+            max-width: 350px;
+            height: 350px;
+            border-radius: 7rem;
+            box-shadow: 0 0 8px 8px rgb(0, 0, 0);
+
+        }
+
+        .detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            width: 100%;
+            padding: 0rem 1.5rem;
+        }
+
+        .icons i {
+            position: relative;
+            left: 43%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .mypic img {
+                position: relative;
+                left: 25%;
+                max-width: 300px;
+                height: 300px;
+                border-radius: 7rem;
+                box-shadow: 0 0 8px 8px rgb(0, 0, 0);
+
+            }
+
+            .icons i {
+                position: relative;
+                left: 25%;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"><a href="index.html">Spotify</a> </li>
+            <div class="vl"></div>
+
+            <li><a href="index.html"> Home</a></li>
+            <li> <a href="my.html"> About</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="about">
+        <div class="mypic"><img src="covers/my.png" alt=""></div>
+        <div class="detail">
+            <h3>Yasin Shaikh</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis odio laborum, reprehenderit dignissimos
+                pariatur itaque, eius voluptatibus placeat repudiandae vitae autem quisquam incidunt amet quod qui,
+                molestiae illo suscipit sapiente.</p>
+
+            <div class="icons">
+                <a href="https://www.instagram.com/_shaikhyasin_/"> <i class="fab fa-instagram"
+                        style="color: palevioletred;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f" style="color: blue;"></i></a>
+                <a href=""><i class="fab fa-whatsapp" style="color: greenyellow;"></i></a>
+                <a href="https://www.linkedin.com/in/yasin-shaikh-1986621a5/"><i class="fab fa-linkedin"
+                        style="color: skyblue;"></i></a>
+
+            </div>
+        <h4 style="font-size: 1rem; text-align: center; margin-top: 2rem; opacity: .3;">Yasin&copy;20z20</h4>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

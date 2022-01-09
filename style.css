@@ -1,0 +1,431 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section */
+
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: azure;
+}
+
+nav ul li{
+    padding: 0 12px;
+    font-size: 1rem;
+
+    font-weight: bold;
+}
+ul a{
+    text-decoration: none;
+    color: azure;
+
+}
+.brand img{
+    width: 80px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-left: -3rem;
+    
+}
+
+.vl {
+    border-left: 1px solid rgb(240, 118, 37);
+    height: 25px;
+  }
+
+
+
+
+
+
+
+
+/* Hero -banner -section */
+.hero{
+    margin-top: -1rem;
+    position: relative;
+    width: 100%;
+    /* box-shadow: 0 0 7px -3px white; */
+}
+.bg img{
+    width: 100%;
+   opacity: .8;
+    
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+
+#bt1{
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   font-size: 1.5rem;
+ 
+   transition: .5s ease-in; 
+background-color: black;
+border-bottom: 2pX solid  rgb(255, 255, 255);
+border-right: 2pX solid  white;
+border-radius: 2rem;
+box-shadow: 0PX 0pX 2px 2px rgb(0, 0, 0);
+padding: 12pX;
+cursor: pointer;  
+
+
+}
+#bt1 a{
+text-decoration: none;
+color: azure;
+}
+
+/* Favroit ----------section */
+
+.mid-sec{
+    position: relative;
+    
+}
+.title2 {
+    padding: 2rem;
+   background-color: black;
+}
+.title2 h3{
+    margin-left: -1.2rem;
+    margin-bottom: -2.3rem;
+    color: azure;
+    font-size: 2rem;    
+  
+}
+.gallery{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    background-color: black;
+}
+
+.boX1{
+  color: azure;
+    flex: 1 1 0 auto;
+   maX-width: 300px; 
+    width: 100%;
+    height: 300px;
+    margin: 1rem;
+   text-align: center;
+  
+}
+
+.boX1 img{
+    border-radius: 7rem;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 0 7px -3px rgb(253, 131, 61);
+    
+}
+
+
+.container{
+    min-height: 50vh;
+    color: white;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+  
+}
+/* Bottom ---section */
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+   
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+    padding-left:1rem ;
+    padding-right:1rem ;
+}
+.bottom #gif{
+    opacity: 0;
+    transition: 1.2s ease-in-out;
+}
+
+/* progresss barrrrrr */
+
+.progress_div {
+    background-color: rgb(195, 191, 191);
+    height: 8px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    left: 0%;
+    top: -8%;
+    
+}
+
+ .progress {
+    background-color: rgb(246, 120, 74);
+    height: 8px;
+    width: 0%;
+    cursor: pointer;
+ border-radius: 10px;
+
+}
+
+
+/* total -time and duration section */
+.curentd{
+    display: none;
+}
+
+.songItemContainer{
+    margin-top: 25px;
+ margin-left: -4.3rem;
+   background-color: rgb(236, 151, 54);
+   padding: 1rem 1rem;
+   box-shadow: 0px 0px 15px 7px #000000; 
+
+   border: 2px solid white;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(2, 1, 1);
+    width: 75vw;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    box-shadow: 0px 0px 0px 2px #fde2e2;
+
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 -15px;
+    border-radius: 34px;
+  
+}
+.songItem .songName{
+    color: azure;
+}
+.songItem i{
+    color: coral;
+    font-size: 1.5rem;
+}
+.songList h3{
+   color: azure;
+ 
+margin-left: 1.2rem;
+
+    letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* song img back button gif ----section */
+
+.songInfo{
+    position: absolute;
+    color: azure;
+    width: 100%;
+   font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.songInfo #open{
+font-size: 3rem;
+transform: rotate(90deg);
+color: coral;
+}
+
+
+
+.img{
+    position: relative;
+    
+    box-shadow: 0px 0px 15px 7px #000000; 
+    border:  2px solid white;
+    margin-left: 2rem;
+    opacity: 1;
+    width: 90px;
+    height: 85px;
+    border-radius:15rem;
+}
+
+  .img2{
+ animation: rotate 6s infinite linear;
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.songInfo #masterSongName{
+    font-size: 2rem;
+    margin-top: .7rem;
+    color: azure;
+}
+
+.songInfo #artist{
+    position: absolute;
+    font-size: 1.2rem;
+    left: 21%;
+    top: 3rem;
+    color: rgb(102, 100, 100);
+}
+
+
+
+
+
+/* bottom section maXimize */
+
+.bottom.active{
+    position: fixed;
+    background-color: rgb(39, 37, 37);
+    height: 100%;
+    width: 100%;
+    display: flex;
+  transition: 1s ease-in;
+}
+
+
+.bottom.active #open{
+    position: relative;
+    transform: rotate(-90deg); 
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 7px #000000; 
+    font-size: 5rem;
+    top: -16rem;
+    left: -42%;
+}
+
+.bottom.active .progress_div{
+  
+    width: 80%;
+    position: relative;
+    top: 10rem;
+    box-shadow: 0px 0px 15px 7px #000000; 
+}
+
+.bottom.active .curentd{
+    position: relative;
+    top: 16%;
+  width: 100%;
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+
+}
+.bottom.active .current_time{
+   margin-left: 5.5em;
+    
+}
+
+.bottom.active .duration{
+   margin-right: 5.5em;
+    
+}
+
+.bottom.active .img{
+    position: absolute;
+    width: 350px;
+    height:350px;
+    top:-15rem;
+
+    
+}
+.bottom.active .icons{
+    position: absolute;
+    top: 15em;
+   
+
+}
+.bottom.active .icons i{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    box-shadow: 0px 0px 15px 7px #000000; 
+}
+
+.bottom.active #masterSongName{
+    position: absolute;
+    top: 14rem;
+    left: 13%;
+    
+}
+.bottom.active #artist{
+    position: absolute;
+   top: 17rem;
+   left: 13%;
+   
+
+}
+.bottom.active #gif{
+    position: absolute;
+    right: 10rem;
+    top: 14rem;
+    width: 100px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+
+/* About section */
+.active{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+

@@ -1,0 +1,191 @@
+@media only screen and (max-width: 600px) {
+  
+ 
+
+     /* herosection */
+     .hero{
+         
+        width: 100%;
+
+
+    }
+    .bg img{
+        width: 100%;
+        
+        object-fit: cover;
+    }
+
+    .title {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: bold;
+    }
+  
+ .hero #bt1{
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    font-size: 1rem;
+  border-bottom: 2pX solid white;
+  border-right: 2pX solid white;
+ box-shadow: 0PX 0pX 2px 2px rgb(0, 0, 0);
+  color: orange;
+    transition: .5s ease-in;
+    padding: 12pX;
+    cursor: pointer;
+}
+
+  /* Favroit--section */
+  .gallery{
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.title2 h3{
+    font-size: 1.5rem;
+
+}
+
+.boX1{
+
+    flex: 0  0 auto;
+   maX-width: 175px; 
+   height: 100%;
+    margin-right: 2px;
+  
+   border-radius: 2rem;
+}
+
+
+.title3 h3{
+    font-size: 1.5rem;
+
+}
+
+
+/* Botttom ------------section */
+
+.songInfo .icons{
+  position: relative;
+  top: 1rem;
+  font-size: .5rem;
+}
+.songInfo  .icons i{
+  padding-left: .1rem;
+  padding-right: .1rem;
+
+}
+
+.songInfo #open{
+  font-size: 2rem;
+  position: relative;
+  left: -.5rem;
+}
+.songInfo #masterSongName{
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  color: azure;
+  position:relative;
+  left: 1.5rem; 
+}
+
+.songInfo #artist{
+  position: absolute;
+  font-size: .7rem;
+  left: 4.3rem;
+  top: 3rem;
+  color: rgb(102, 100, 100);
+}
+
+
+/* Bottom-active -ssection  */
+.bottom.active #open{
+  font-size: 3rem;
+  position: relative;
+  top: -17.8rem;
+  left: -9rem;
+
+}
+.bottom.active .icons{
+  position: absolute;
+  top: 16rem;
+}
+.bottom.active .icons i{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+
+.bottom.active .img{
+  position: absolute;
+  width: 300px;
+  height:300px;
+  top:-13rem;
+  left: 1rem;
+
+  
+}
+
+
+.bottom.active #masterSongName{
+  position: absolute;
+  top: 5rem;
+  left: 13%;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.bottom.active #artist{
+  text-align: center;
+  position: absolute;
+ top: 8.7rem;
+ left: 13%;
+ font-size: 1.5rem;
+ 
+
+}
+.bottom.active #gif{
+  position: absolute;
+  right: 3rem;
+  top: 6rem;
+  width: 70px;
+  cursor: pointer;
+  transition: 1s ease-in;
+}
+.bottom.active .progress_div{
+  
+  width: 80%;
+  position: relative;
+  top: 12rem;
+  box-shadow: 0px 0px 15px 7px #000000; 
+}
+
+.bottom.active .curentd{
+  position: relative;
+  top: 29%;
+width: 100%;
+ font-size: 1.3rem;
+ display: flex;
+ justify-content: space-between;
+ color: rgb(178, 185, 185);
+
+}
+.bottom.active .current_time{
+position: relative;
+left: -6rem;
+   
+}
+
+.bottom.active .duration{
+
+  position: relative;
+  right: -6rem;
+     
+}
+  }
